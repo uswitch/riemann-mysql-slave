@@ -12,7 +12,7 @@ gemspec = Gem::Specification.new do |s|
   s.rubyforge_project = 'riemann-mysql-slave'
 
   s.name = 'riemann-mysql-slave'
-  s.version = '0.1.1'
+  s.version = '0.1.2'
   s.author = 'Christian Blunden'
   s.email = 'christian.blunden@uswitch.com'
   s.homepage = 'https://github.com/uswitch/riemann-mysql-slave'
