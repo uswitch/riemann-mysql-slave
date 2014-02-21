@@ -27,7 +27,7 @@ class Riemann::Tools::MysqlSlave
       @mysql.query("SHOW SLAVE STATUS;").each do |var|
         data = {
           :host => opts[:mysql_host],
-          :service => "mysql #{var["Variable_name"]}",
+          :service => "mysql_slave #{var["Variable_name"]}",
           :metric => var["Value"],
           :tags => ["mysql"]
         }
